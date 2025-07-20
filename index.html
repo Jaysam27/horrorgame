@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadows in the Silence</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="overlay-effects"></div>
+    <div id="game-container">
+        <h1 id="game-title">Shadows in the Silence</h1>
+        <div id="text-container">
+            <p id="game-text"></p>
+            <span id="typing-cursor">|</span>
+        </div>
+        <div id="choices-container"></div>
+        <div id="game-info">
+            <div id="sanity-bar-container">
+                <span class="info-label">Sanity:</span>
+                <div id="sanity-bar-fill"></div>
+                <span id="sanity-level-display">100%</span>
+            </div>
+            <div id="time-display">Time: Day 1 - Dawn</div>
+            <button id="journal-button" class="info-button">Journal</button>
+        </div>
+    </div>
+
+    <div id="journal-panel">
+        <h2 id="journal-title">My Journal</h2>
+        <div id="journal-entries"></div>
+        <button id="close-journal-button" class="info-button">Close Journal</button>
+    </div>
+
+    <div id="message-box">
+        <p id="message-text"></p>
+        <button id="message-ok-button">OK</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
