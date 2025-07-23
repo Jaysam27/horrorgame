@@ -1,0 +1,1 @@
+This is a text-based horror game, it first gives you the instructions to play, then you must click on the option you want to continue with and with each choice, your sanity will get lower and lower till you lose, unless you choose all the right options. There is also a journal to show what you have done so far.
